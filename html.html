@@ -10,29 +10,22 @@
     <h1>SAVE THE PUPPIES!!!</h1>
     <p>enter your credit card number to make a donation and save these adorable puppies!<br<br>
 promise we won't scam :) this is a real organization! we are a branch of the SPCA!</p>
-
-    <form id="first-name">
-        <label for="first-name">First Name:</label>
-        <input type="text"  name="First Name" placeholder="John" required>
-        <span style="color: red; display: none;">Invalid first name number.</span>
+    <form id="donation-amount">
+        <label for="donation-amount">Last Name</label>
+        <input type="text"  name="Name" placeholder="Name on Card" required>
+        <span style="color: red; display: none;">Enter your name exactly as it’s written on your card</span>
     </form>
 
-    <form id="last-name">
-        <label for="last-name">Last Name:</label>
-        <input type="text"  name="Last Name" placeholder="Doe" required>
-        <span style="color: red; display: none;">Invalid last name number.</span>
-    </form>
-
-    <form id="cvv-number">
-        <label for="credit-card">CVV:</label>
-        <input type="text" name="credit-card" placeholder="123" required>
-        <span  style="color: red; display: none;">Invalid card number. Please use 12-16 digits only!</span>
-    </form>
+    <ol>
+        <li>
+            <button>$25</button>
+            <button>$50</button>
+            <button>$100</button>
+            <button>Other</button>
+        </li>
+    </ol>
 
     <form id="donation-form">
-        <label for="credit-card">Credit Card Number:</label>
-        <input type="text" id="credit-card" name="credit-card" placeholder="1234 5678 9012" required>
-        <span id="error-message" style="color: red; display: none;">Invalid card number. Please use 12-16 digits only!</span>
         <button type="submit">Donate Now</button>
     </form>
 
