@@ -8,25 +8,22 @@
 </head>
 <body>
     <h1>SAVE THE PUPPIES!!!</h1>
-    <p>enter your credit card number to make a donation and save these adorable puppies!<br<br>
+    <p>enter your credit card number to make a donation and save these adorable puppies!<br>
 promise we won't scam :) this is a real organization! we are a branch of the SPCA!</p>
-    <form id="donation-amount">
-        <label for="donation-amount">Last Name</label>
-        <input type="text"  name="Name" placeholder="Name on Card" required>
-        <span style="color: red; display: none;">Enter your name exactly as it’s written on your card</span>
-    </form>
 
     <ol>
         <li>
-            <button>$25</button>
-            <button>$50</button>
-            <button>$100</button>
-            <button>Other</button>
+            <button class="donation">$25</button>
+            <button class="donation">$50</button>
+            <button class="donation">$100</button>
+            <button class="donation">Other</button>
         </li>
     </ol>
 
     <form id="donation-form">
-        <button type="submit">Donate Now</button>
+        <a href="donation.html">
+            <button type="submit">Donate Now</button>
+        </a>
     </form>
 
     <script src="script.js"></script>

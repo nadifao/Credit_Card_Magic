@@ -63,10 +63,13 @@ button:hover {
     	background-color: #ff6a33;
 }
 
-ol button donation{
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 15px;
-    border-radius: 5px;
+.donation{
+    background: white;
+    width: 5%;
+    padding:150px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    border-radius: 500px;
+    position: relative;
+    text-align: center;
 }
