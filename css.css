@@ -62,3 +62,27 @@ button {
 button:hover {
     	background-color: #ff6a33;
 }
+
+.donation{
+    background-color: grey;
+    width: 5%;
+    padding:150px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.donation_clicked {
+    background-color: light blue;
+    width: 5%;
+    padding:150px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
