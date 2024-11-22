@@ -13,17 +13,19 @@ promise we won't scam :) this is a real organization! we are a branch of the SPC
 
     <ol>
         <li>
-            <button class="donation">$25</button>
-            <button class="donation">$50</button>
-            <button class="donation">$100</button>
-            <button class="donation">Other</button>
+            <button class="donation" onclick="donation_clicked">$25</button>
+            <button class="donation" onclick="donation_clicked">$50</button>
+            <button class="donation" onclick="donation_clicked">$100</button>
+            <button class="donation" onclick="donation_clicked">Other</button>
         </li>
     </ol>
 
     <form id="donation-form">
-        <a href="donation.html">
-            <button type="submit">Donate Now</button>
-        </a>
+            <button type="submit">
+                <a href="donation.html">
+                    Donate Now
+                </a>
+            </button>
     </form>
 
     <script src="script.js"></script>
